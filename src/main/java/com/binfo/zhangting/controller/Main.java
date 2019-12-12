@@ -18,8 +18,8 @@ public class Main {
         JSONObject jsonObject = JSONObject.parseObject(str);
         String errmsg = jsonObject.get("errmsg").toString();
         String dataset = jsonObject.get("dataset").toString();
-        System.out.println(errmsg);
-        System.out.println(dataset);
+        System.out.println("接口请求结果:" + errmsg);
+        System.out.println("发送消息结果:" + dataset);
     }
 
 
