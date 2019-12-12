@@ -1,0 +1,15 @@
+spring:
+    http:
+      encoding:
+        force: true
+    jackson:
+        time-zone: GMT+8
+        date-format: yyyy-MM-dd HH:mm:ss
+    mvc:
+        favicon:
+          enabled: false
+server:
+  context-path: /weatherReminder
+  port: 9999
+logging:
+  config: classpath:config/logback-spring.xml
