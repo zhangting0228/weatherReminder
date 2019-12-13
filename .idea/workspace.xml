@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7dac7f-a43c-41b7-9c8f-c362dbd34b99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/monitor.log.2019-12-13.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binfo/zhangting/service/NotifyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binfo/PlatformApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binfo/PlatformApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binfo/zhangting/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binfo/zhangting/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/monitor.log.2019-12-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/monitor.log.2019-12-13.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/binfo/zhangting/service/NotifyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binfo/zhangting/service/NotifyService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +116,8 @@
       <updated>1576157487658</updated>
       <workItem from="1576157488806" duration="3253000" />
       <workItem from="1576160890019" duration="1487000" />
-      <workItem from="1576198270694" duration="2346000" />
+      <workItem from="1576198270694" duration="2763000" />
+      <workItem from="1576201214171" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1576160594381</created>
@@ -141,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576162372964</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1576200654199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576200654199</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1576200662690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576200662690</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +178,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="." />
     <MESSAGE value="add weather api" />
-    <option name="LAST_COMMIT_MESSAGE" value="add weather api" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

@@ -24,6 +24,7 @@ public class NotifyService {
     private static final Logger logger = LoggerFactory.getLogger(NotifyService.class);
 
     private static final String MSG_URL = "https://sc.ftqq.com/SCU68613Teece1b1fd4500d64bd38230103edca2b5df23e21cab09.send?";
+    private static final String MSG_URL_CL = "https://sc.ftqq.com/SCU68639T3fcfc4ff893c93247e99eeeede330a035df2eb1486677.send?";
     private static final String WEATHER_URL = "https://wis.qq.com/weather/common?source=xw&weather_type=forecast_24h&province=江苏&city=南京";
 
     @Resource
@@ -48,7 +49,12 @@ public class NotifyService {
         logger.info("开始调用消息发送接口==================");
         StringBuilder msg = new StringBuilder();
         msg.append("text=天气预报提醒&desp=" + forecast + "    消息推送时间:" + format.format(new Date()));
+        StringBuilder msgForCl = new StringBuilder();
+        msgForCl.append("text=天气预报提醒&desp=操磊你好，你的爸爸提醒你！！" + forecast + "    消息推送时间:" + format.format(new Date()));
+        // 给我推
         String str = restTemplate.postForEntity(MSG_URL + msg.toString(), null, String.class).getBody();
+        // 给操磊推
+        String strCl = restTemplate.postForEntity(MSG_URL_CL + msgForCl.toString(), null, String.class).getBody();
         JSONObject jsonObject = JSONObject.parseObject(str);
         logger.info("发送消息结束==================");
         String errmsg = jsonObject.get("errmsg").toString();
