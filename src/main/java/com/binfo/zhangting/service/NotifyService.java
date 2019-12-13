@@ -30,7 +30,7 @@ public class NotifyService {
     @Resource
     private RestTemplate restTemplate;
 
-    @Scheduled(cron = "0 0/1 * * * ? ")
+    @Scheduled(cron = "0 0 0,7 * * ? ")
     public void excute() {
         //0 0 0,7 * * ? - 每天七点
         //0 0/1 * * * ? - 每分钟一次
