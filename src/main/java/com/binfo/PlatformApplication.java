@@ -11,10 +11,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @SpringBootApplication
 @EnableScheduling
-public class PlatformApplication
-{
-    public static void main(String[] args)
-    {
+public class PlatformApplication {
+    public static void main(String[] args) {
         SpringApplication.run(PlatformApplication.class, args);
     }
 }

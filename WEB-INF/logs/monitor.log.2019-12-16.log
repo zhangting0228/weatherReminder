@@ -1,0 +1,202 @@
+2019-12-16 09:37:46.421 [main] INFO  com.binfo.PlatformApplication - Starting PlatformApplication on 张挺 with PID 7072 (D:\binfo\workspace-test\weatherReminder\target\classes started by 77276 in D:\binfo\workspace-test\weatherReminder)
+2019-12-16 09:37:46.424 [main] DEBUG com.binfo.PlatformApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-12-16 09:37:46.425 [main] INFO  com.binfo.PlatformApplication - No active profile set, falling back to default profiles: default
+2019-12-16 09:37:46.473 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2fd953a6: startup date [Mon Dec 16 09:37:46 CST 2019]; root of context hierarchy
+2019-12-16 09:37:46.596 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-12-16 09:37:47.310 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9999 (http)
+2019-12-16 09:37:47.317 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-16 09:37:47.318 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-16 09:37:47.388 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/weatherReminder] - Initializing Spring embedded WebApplicationContext
+2019-12-16 09:37:47.389 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 916 ms
+2019-12-16 09:37:47.552 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-16 09:37:47.555 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-16 09:37:47.555 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-16 09:37:47.555 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-16 09:37:47.556 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-16 09:37:47.814 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2fd953a6: startup date [Mon Dec 16 09:37:46 CST 2019]; root of context hierarchy
+2019-12-16 09:37:47.858 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-16 09:37:47.859 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-16 09:37:47.881 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 09:37:47.881 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 09:37:48.064 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-16 09:37:48.075 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-12-16 09:37:48.083 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+2019-12-16 09:37:48.088 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+2019-12-16 09:37:48.097 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-16 09:37:48.110 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9999 (http)
+2019-12-16 09:37:48.113 [main] INFO  com.binfo.PlatformApplication - Started PlatformApplication in 2.086 seconds (JVM running for 3.122)
+2019-12-16 09:37:52.857 [Thread-5] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2fd953a6: startup date [Mon Dec 16 09:37:46 CST 2019]; root of context hierarchy
+2019-12-16 09:37:52.858 [Thread-5] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-12-16 09:37:57.307 [main] INFO  com.binfo.PlatformApplication - Starting PlatformApplication on 张挺 with PID 3664 (D:\binfo\workspace-test\weatherReminder\target\classes started by 77276 in D:\binfo\workspace-test\weatherReminder)
+2019-12-16 09:37:57.311 [main] DEBUG com.binfo.PlatformApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-12-16 09:37:57.312 [main] INFO  com.binfo.PlatformApplication - No active profile set, falling back to default profiles: default
+2019-12-16 09:37:57.358 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2fd953a6: startup date [Mon Dec 16 09:37:57 CST 2019]; root of context hierarchy
+2019-12-16 09:37:57.472 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-12-16 09:37:58.189 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9999 (http)
+2019-12-16 09:37:58.195 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-16 09:37:58.196 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-16 09:37:58.266 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/weatherReminder] - Initializing Spring embedded WebApplicationContext
+2019-12-16 09:37:58.266 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 908 ms
+2019-12-16 09:37:58.421 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-16 09:37:58.423 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-16 09:37:58.424 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-16 09:37:58.424 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-16 09:37:58.424 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-16 09:37:58.663 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2fd953a6: startup date [Mon Dec 16 09:37:57 CST 2019]; root of context hierarchy
+2019-12-16 09:37:58.705 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-16 09:37:58.706 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-16 09:37:58.727 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 09:37:58.727 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 09:37:58.904 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-16 09:37:58.911 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-12-16 09:37:58.918 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+2019-12-16 09:37:58.923 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+2019-12-16 09:37:58.932 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-16 09:37:58.943 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9999 (http)
+2019-12-16 09:37:58.946 [main] INFO  com.binfo.PlatformApplication - Started PlatformApplication in 1.986 seconds (JVM running for 2.973)
+2019-12-16 09:38:00.002 [pool-1-thread-1] INFO  c.b.zhangting.service.NotifyService - 开始获取天气数据======================
+2019-12-16 09:38:01.593 [pool-1-thread-1] INFO  c.b.zhangting.service.NotifyService - 完成获取天气数据======================{"data":{"forecast_24h":{"0":{"day_weather":"多云","day_weather_code":"01","day_weather_short":"多云","day_wind_direction":"东南风","day_wind_direction_code":"3","day_wind_power":"4","day_wind_power_code":"1","max_degree":"15","min_degree":"10","night_weather":"多云","night_weather_code":"01","night_weather_short":"多云","night_wind_direction":"东南风","night_wind_direction_code":"3","night_wind_power":"3","night_wind_power_code":"0","time":"2019-12-15"},"1":{"day_weather":"多云","day_weather_code":"01","day_weather_short":"多云","day_wind_direction":"南风","day_wind_direction_code":"4","day_wind_power":"3","day_wind_power_code":"0","max_degree":"18","min_degree":"11","night_weather":"小雨","night_weather_code":"07","night_weather_short":"小雨","night_wind_direction":"西北风","night_wind_direction_code":"7","night_wind_power":"3","night_wind_power_code":"0","time":"2019-12-16"},"2":{"day_weather":"小雨","day_weather_code":"07","day_weather_short":"小雨","day_wind_direction":"西北风","day_wind_direction_code":"7","day_wind_power":"3","day_wind_power_code":"0","max_degree":"11","min_degree":"5","night_weather":"小雨","night_weather_code":"07","night_weather_short":"小雨","night_wind_direction":"东北风","night_wind_direction_code":"1","night_wind_power":"3","night_wind_power_code":"0","time":"2019-12-17"},"3":{"day_weather":"小雨","day_weather_code":"07","day_weather_short":"小雨","day_wind_direction":"北风","day_wind_direction_code":"8","day_wind_power":"3","day_wind_power_code":"0","max_degree":"6","min_degree":"2","night_weather":"小雨","night_weather_code":"07","night_weather_short":"小雨","night_wind_direction":"北风","night_wind_direction_code":"8","night_wind_power":"3","night_wind_power_code":"0","time":"2019-12-18"},"4":{"day_weather":"多云","day_weather_code":"01","day_weather_short":"多云","day_wind_direction":"东北风","day_wind_direction_code":"1","day_wind_power":"3","day_wind_power_code":"0","max_degree":"7","min_degree":"2","night_weather":"阴","night_weather_code":"02","night_weather_short":"阴","night_wind_direction":"东风","night_wind_direction_code":"2","night_wind_power":"3","night_wind_power_code":"0","time":"2019-12-19"},"5":{"day_weather":"阴","day_weather_code":"02","day_weather_short":"阴","day_wind_direction":"东风","day_wind_direction_code":"2","day_wind_power":"3","day_wind_power_code":"0","max_degree":"11","min_degree":"5","night_weather":"小雨","night_weather_code":"07","night_weather_short":"小雨","night_wind_direction":"北风","night_wind_direction_code":"8","night_wind_power":"4","night_wind_power_code":"1","time":"2019-12-20"},"6":{"day_weather":"小雨","day_weather_code":"07","day_weather_short":"小雨","day_wind_direction":"东风","day_wind_direction_code":"2","day_wind_power":"3","day_wind_power_code":"0","max_degree":"9","min_degree":"6","night_weather":"小雨","night_weather_code":"07","night_weather_short":"小雨","night_wind_direction":"东北风","night_wind_direction_code":"1","night_wind_power":"3","night_wind_power_code":"0","time":"2019-12-21"},"7":{"day_weather":"小雨","day_weather_code":"07","day_weather_short":"小雨","day_wind_direction":"西南风","day_wind_direction_code":"5","day_wind_power":"3","day_wind_power_code":"0","max_degree":"10","min_degree":"6","night_weather":"小雨","night_weather_code":"07","night_weather_short":"小雨","night_wind_direction":"西南风","night_wind_direction_code":"5","night_wind_power":"3","night_wind_power_code":"0","time":"2019-12-22"}}},"message":"OK","status":200}
+2019-12-16 09:38:01.593 [pool-1-thread-1] INFO  c.b.zhangting.service.NotifyService - 日期:2019-12-16    地区:南京    天气:多云    温度:11℃ ~ 18℃
+2019-12-16 09:38:01.593 [pool-1-thread-1] INFO  c.b.zhangting.service.NotifyService - 开始调用消息发送接口==================
+2019-12-16 09:38:02.773 [pool-1-thread-1] INFO  c.b.zhangting.service.NotifyService - 发送消息结束==================
+2019-12-16 09:38:02.774 [pool-1-thread-1] INFO  c.b.zhangting.service.NotifyService - 接口请求结果:success
+2019-12-16 09:38:02.774 [pool-1-thread-1] INFO  c.b.zhangting.service.NotifyService - 发送消息结果:done
+2019-12-16 09:38:07.683 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2fd953a6: startup date [Mon Dec 16 09:37:57 CST 2019]; root of context hierarchy
+2019-12-16 09:38:07.684 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-12-16 20:50:13.440 [main] INFO  com.binfo.PlatformApplication - Starting PlatformApplication on 张挺 with PID 12636 (D:\binfo\workspace-test\weatherReminder\target\classes started by 77276 in D:\binfo\workspace-test\weatherReminder)
+2019-12-16 20:50:13.440 [main] DEBUG com.binfo.PlatformApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-12-16 20:50:13.440 [main] INFO  com.binfo.PlatformApplication - No active profile set, falling back to default profiles: default
+2019-12-16 20:50:13.471 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60856961: startup date [Mon Dec 16 20:50:13 CST 2019]; root of context hierarchy
+2019-12-16 20:50:13.581 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-12-16 20:50:14.268 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9999 (http)
+2019-12-16 20:50:14.284 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-16 20:50:14.284 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-16 20:50:14.362 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/weatherReminder] - Initializing Spring embedded WebApplicationContext
+2019-12-16 20:50:14.362 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 891 ms
+2019-12-16 20:50:14.518 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-16 20:50:14.518 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-16 20:50:14.518 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-16 20:50:14.518 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-16 20:50:14.518 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-16 20:50:14.753 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60856961: startup date [Mon Dec 16 20:50:13 CST 2019]; root of context hierarchy
+2019-12-16 20:50:14.800 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.binfo.PlatformApplication.home()
+2019-12-16 20:50:14.800 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-16 20:50:14.800 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-16 20:50:14.815 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 20:50:14.815 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 20:50:15.003 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-16 20:50:15.003 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-12-16 20:50:15.018 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+2019-12-16 20:50:15.018 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+2019-12-16 20:50:15.034 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-16 20:50:15.050 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9999 (http)
+2019-12-16 20:50:15.050 [main] INFO  com.binfo.PlatformApplication - Started PlatformApplication in 1.985 seconds (JVM running for 3.506)
+2019-12-16 20:50:38.908 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[.[.[/weatherReminder] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-16 20:50:38.908 [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-16 20:50:38.940 [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2019-12-16 20:50:38.956 [http-nio-9999-exec-1] INFO  com.binfo.PlatformApplication - 接口请求
+2019-12-16 20:50:52.333 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60856961: startup date [Mon Dec 16 20:50:13 CST 2019]; root of context hierarchy
+2019-12-16 20:50:52.333 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-12-16 20:50:57.505 [main] INFO  com.binfo.PlatformApplication - Starting PlatformApplication on 张挺 with PID 7220 (D:\binfo\workspace-test\weatherReminder\target\classes started by 77276 in D:\binfo\workspace-test\weatherReminder)
+2019-12-16 20:50:57.505 [main] DEBUG com.binfo.PlatformApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-12-16 20:50:57.521 [main] INFO  com.binfo.PlatformApplication - No active profile set, falling back to default profiles: default
+2019-12-16 20:50:57.552 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a55af6b: startup date [Mon Dec 16 20:50:57 CST 2019]; root of context hierarchy
+2019-12-16 20:50:57.661 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-12-16 20:50:58.396 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9999 (http)
+2019-12-16 20:50:58.396 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-16 20:50:58.396 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-16 20:50:58.474 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/weatherReminder] - Initializing Spring embedded WebApplicationContext
+2019-12-16 20:50:58.474 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 922 ms
+2019-12-16 20:50:58.630 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-16 20:50:58.630 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-16 20:50:58.646 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-16 20:50:58.646 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-16 20:50:58.646 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-16 20:50:58.880 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a55af6b: startup date [Mon Dec 16 20:50:57 CST 2019]; root of context hierarchy
+2019-12-16 20:50:58.911 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.binfo.PlatformApplication.home()
+2019-12-16 20:50:58.911 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-16 20:50:58.911 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-16 20:50:58.943 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 20:50:58.943 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 20:50:59.133 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-16 20:50:59.133 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-12-16 20:50:59.149 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+2019-12-16 20:50:59.149 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+2019-12-16 20:50:59.164 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-16 20:50:59.180 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9999 (http)
+2019-12-16 20:50:59.180 [main] INFO  com.binfo.PlatformApplication - Started PlatformApplication in 2.347 seconds (JVM running for 3.629)
+2019-12-16 20:51:03.977 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[.[.[/weatherReminder] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-16 20:51:03.977 [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-16 20:51:04.009 [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2019-12-16 20:51:04.040 [http-nio-9999-exec-1] INFO  com.binfo.PlatformApplication - 接口请求
+2019-12-16 20:51:05.837 [http-nio-9999-exec-5] INFO  com.binfo.PlatformApplication - 接口请求
+2019-12-16 20:51:24.736 [Thread-7] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a55af6b: startup date [Mon Dec 16 20:50:57 CST 2019]; root of context hierarchy
+2019-12-16 20:51:24.736 [Thread-7] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-12-16 20:51:29.806 [main] INFO  com.binfo.PlatformApplication - Starting PlatformApplication on 张挺 with PID 16584 (D:\binfo\workspace-test\weatherReminder\target\classes started by 77276 in D:\binfo\workspace-test\weatherReminder)
+2019-12-16 20:51:29.806 [main] DEBUG com.binfo.PlatformApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-12-16 20:51:29.806 [main] INFO  com.binfo.PlatformApplication - No active profile set, falling back to default profiles: default
+2019-12-16 20:51:29.853 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60856961: startup date [Mon Dec 16 20:51:29 CST 2019]; root of context hierarchy
+2019-12-16 20:51:29.978 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-12-16 20:51:30.916 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9999 (http)
+2019-12-16 20:51:30.931 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-16 20:51:30.931 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-16 20:51:31.041 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-16 20:51:31.041 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1188 ms
+2019-12-16 20:51:31.275 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-16 20:51:31.275 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-16 20:51:31.275 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-16 20:51:31.275 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-16 20:51:31.275 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-16 20:51:31.635 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60856961: startup date [Mon Dec 16 20:51:29 CST 2019]; root of context hierarchy
+2019-12-16 20:51:31.697 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.binfo.PlatformApplication.home()
+2019-12-16 20:51:31.697 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-16 20:51:31.697 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-16 20:51:31.728 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 20:51:31.728 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 20:51:31.963 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-16 20:51:31.963 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-12-16 20:51:31.978 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+2019-12-16 20:51:31.978 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+2019-12-16 20:51:31.994 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-16 20:51:32.010 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9999 (http)
+2019-12-16 20:51:32.010 [main] INFO  com.binfo.PlatformApplication - Started PlatformApplication in 2.563 seconds (JVM running for 3.645)
+2019-12-16 20:51:35.437 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60856961: startup date [Mon Dec 16 20:51:29 CST 2019]; root of context hierarchy
+2019-12-16 20:51:35.437 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-12-16 20:51:39.564 [main] INFO  com.binfo.PlatformApplication - Starting PlatformApplication on 张挺 with PID 22484 (D:\binfo\workspace-test\weatherReminder\target\classes started by 77276 in D:\binfo\workspace-test\weatherReminder)
+2019-12-16 20:51:39.564 [main] DEBUG com.binfo.PlatformApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-12-16 20:51:39.564 [main] INFO  com.binfo.PlatformApplication - No active profile set, falling back to default profiles: default
+2019-12-16 20:51:39.611 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2fd953a6: startup date [Mon Dec 16 20:51:39 CST 2019]; root of context hierarchy
+2019-12-16 20:51:39.705 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-12-16 20:51:40.392 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9999 (http)
+2019-12-16 20:51:40.392 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-16 20:51:40.392 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-16 20:51:40.470 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-16 20:51:40.470 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 859 ms
+2019-12-16 20:51:40.627 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-16 20:51:40.627 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-16 20:51:40.627 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-16 20:51:40.627 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-16 20:51:40.627 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-16 20:51:40.877 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2fd953a6: startup date [Mon Dec 16 20:51:39 CST 2019]; root of context hierarchy
+2019-12-16 20:51:40.908 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.binfo.PlatformApplication.home()
+2019-12-16 20:51:40.908 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-16 20:51:40.908 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-16 20:51:40.939 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 20:51:40.939 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 20:51:41.111 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-16 20:51:41.127 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-12-16 20:51:41.127 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+2019-12-16 20:51:41.127 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+2019-12-16 20:51:41.142 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-16 20:51:41.158 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9999 (http)
+2019-12-16 20:51:41.158 [main] INFO  com.binfo.PlatformApplication - Started PlatformApplication in 1.953 seconds (JVM running for 3.065)
+2019-12-16 20:51:46.737 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-16 20:51:46.737 [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-16 20:51:46.768 [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2019-12-16 20:51:46.784 [http-nio-9999-exec-1] INFO  com.binfo.PlatformApplication - 接口请求
+2019-12-16 20:51:48.425 [http-nio-9999-exec-3] INFO  com.binfo.PlatformApplication - 接口请求
+2019-12-16 20:51:49.473 [http-nio-9999-exec-4] INFO  com.binfo.PlatformApplication - 接口请求
+2019-12-16 20:51:50.411 [http-nio-9999-exec-7] INFO  com.binfo.PlatformApplication - 接口请求
+2019-12-16 20:51:51.442 [http-nio-9999-exec-9] INFO  com.binfo.PlatformApplication - 接口请求
+2019-12-16 20:52:06.886 [http-nio-9999-exec-1] INFO  com.binfo.PlatformApplication - 接口请求
+2019-12-16 20:52:08.090 [http-nio-9999-exec-3] INFO  com.binfo.PlatformApplication - 接口请求

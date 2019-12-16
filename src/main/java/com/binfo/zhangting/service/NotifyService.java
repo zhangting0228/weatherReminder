@@ -30,7 +30,7 @@ public class NotifyService {
     @Resource
     private RestTemplate restTemplate;
 
-    @Scheduled(cron = "0 0 7 * * ? ")
+    @Scheduled(cron = "0 0 7 * * ?")
     public void excute() {
         //0 0 7 * * ?  - 每天七点
         //0 0/1 * * * ? - 每分钟一次
@@ -41,16 +41,16 @@ public class NotifyService {
         LinkedHashMap data = (LinkedHashMap) weather.get("data");
         LinkedHashMap map = (LinkedHashMap) data.get("forecast_24h");
         LinkedHashMap today = (LinkedHashMap) map.get("1");
-        String forecast = "日期:" + today.get("time") + "    地区:南京    天气:" + today.get("day_weather") + "    温度:" + today.get("min_degree") + "℃ ~ " + today.get("max_degree") + "℃";
+        String forecast = "\r\r日期:" + today.get("time") + "    \r\r地区:南京    \r\r天气:" + today.get("day_weather") + "    \r\r温度:" + today.get("min_degree") + "℃ ~ " + today.get("max_degree") + "℃";
         logger.info(forecast);
 
         // 发送微信消息
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         logger.info("开始调用消息发送接口==================");
         StringBuilder msg = new StringBuilder();
-        msg.append("text=天气预报提醒&desp=" + forecast + "    消息推送时间:" + format.format(new Date()));
+        msg.append("text=天气预报提醒&desp=" + forecast + "    \r\r消息推送时间:" + format.format(new Date()));
         StringBuilder msgForCl = new StringBuilder();
-        msgForCl.append("text=天气预报提醒&desp=操磊你好，你的爸爸提醒你！！" + forecast + "    消息推送时间:" + format.format(new Date()));
+        msgForCl.append("text=天气预报提醒&desp=操磊你好，你的爸爸提醒你！！\r\r" + forecast + "    \r\r消息推送时间:" + format.format(new Date()));
         // 给我推
         String str = restTemplate.postForEntity(MSG_URL + msg.toString(), null, String.class).getBody();
         // 给操磊推

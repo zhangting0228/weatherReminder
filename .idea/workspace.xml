@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7dac7f-a43c-41b7-9c8f-c362dbd34b99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/weatherReminder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-INF/logs/monitor.log.2019-12-16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/binfo/PlatformApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binfo/PlatformApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/binfo/zhangting/service/NotifyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binfo/zhangting/service/NotifyService.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response21.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -39,6 +48,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -47,12 +61,14 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -64,15 +80,49 @@
       <recent name="D:\binfo\workspace-test\eureka\weatherReminder\src\main\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9999" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9999" />
+          <option name="urlPath" value="/weatherReminder/test" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -103,6 +153,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -118,7 +180,10 @@
       <workItem from="1576198270694" duration="2763000" />
       <workItem from="1576201214171" duration="1053000" />
       <workItem from="1576214734038" duration="134000" />
-      <workItem from="1576460093418" duration="35000" />
+      <workItem from="1576460093418" duration="277000" />
+      <workItem from="1576460594187" duration="79000" />
+      <workItem from="1576499123362" duration="624000" />
+      <workItem from="1576499933626" duration="809000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1576160594381</created>
@@ -169,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576214780535</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <created>1576460136197</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576460136197</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,5 +267,55 @@
     <MESSAGE value="add weather api" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1876" height="371" key="GridCell.Tab.0.bottom" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
+    <state width="1876" height="371" key="GridCell.Tab.0.center" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
+    <state width="1876" height="371" key="GridCell.Tab.0.left" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
+    <state width="1876" height="371" key="GridCell.Tab.0.right" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
+    <state width="1876" height="371" key="GridCell.Tab.1.bottom" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
+    <state width="1876" height="371" key="GridCell.Tab.1.center" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
+    <state width="1876" height="371" key="GridCell.Tab.1.left" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
+    <state width="1876" height="371" key="GridCell.Tab.1.right" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
+    <state width="1876" height="371" key="GridCell.Tab.2.bottom" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
+    <state width="1876" height="371" key="GridCell.Tab.2.center" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
+    <state width="1876" height="371" key="GridCell.Tab.2.left" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
+    <state width="1876" height="371" key="GridCell.Tab.2.right" timestamp="1576500700408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="371" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576500700408" />
   </component>
 </project>
