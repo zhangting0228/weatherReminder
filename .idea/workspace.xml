@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7dac7f-a43c-41b7-9c8f-c362dbd34b99" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/binfo/zhangting/service/NotifyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binfo/zhangting/service/NotifyService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,6 +117,8 @@
       <workItem from="1576160890019" duration="1487000" />
       <workItem from="1576198270694" duration="2763000" />
       <workItem from="1576201214171" duration="1053000" />
+      <workItem from="1576214734038" duration="134000" />
+      <workItem from="1576460093418" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1576160594381</created>
@@ -159,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576201935671</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1576214780535</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576214780535</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
