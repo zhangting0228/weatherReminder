@@ -200,3 +200,5 @@
 2019-12-16 20:51:51.442 [http-nio-9999-exec-9] INFO  com.binfo.PlatformApplication - 接口请求
 2019-12-16 20:52:06.886 [http-nio-9999-exec-1] INFO  com.binfo.PlatformApplication - 接口请求
 2019-12-16 20:52:08.090 [http-nio-9999-exec-3] INFO  com.binfo.PlatformApplication - 接口请求
+2019-12-16 21:13:31.488 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2fd953a6: startup date [Mon Dec 16 20:51:39 CST 2019]; root of context hierarchy
+2019-12-16 21:13:31.488 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
