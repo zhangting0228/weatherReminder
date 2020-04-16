@@ -49,12 +49,11 @@ public class NotifyService {
         logger.info("开始调用消息发送接口==================");
         StringBuilder msg = new StringBuilder();
         msg.append("text=天气预报提醒&desp=" + forecast + "    \r\r消息推送时间:" + format.format(new Date()));
-        StringBuilder msgForCl = new StringBuilder();
-        msgForCl.append("text=天气预报提醒&desp=操磊你好，你的爸爸提醒你！！\r\r" + forecast + "    \r\r消息推送时间:" + format.format(new Date()));
-        // 给我推
+//         StringBuilder msgForCl = new StringBuilder();
+//         msgForCl.append("text=天气预报提醒&desp=操磊你好，你的爸爸提醒你！！\r\r" + forecast + "    \r\r消息推送时间:" + format.format(new Date()));
         String str = restTemplate.postForEntity(MSG_URL + msg.toString(), null, String.class).getBody();
         // 给操磊推
-        String strCl = restTemplate.postForEntity(MSG_URL_CL + msgForCl.toString(), null, String.class).getBody();
+//         String strCl = restTemplate.postForEntity(MSG_URL_CL + msgForCl.toString(), null, String.class).getBody();
         JSONObject jsonObject = JSONObject.parseObject(str);
         logger.info("发送消息结束==================");
         String errmsg = jsonObject.get("errmsg").toString();
