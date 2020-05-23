@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Author 张挺（zhangting@binfo-tech.com）
+ * @Author 张挺
  * @Description RestTemplate配置类
  * @Date 2019/11/13 14:29
  */
